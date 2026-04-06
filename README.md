@@ -49,7 +49,7 @@ Develop a **Generative AI Chatbot** that integrates with **LINE** and utilizes *
 Complete any of the following to earn additional points. Each item is independent.
 
 ### Extra 1 — Vector Database
-- Replace in-memory keyword search with a vector databas
+- Replace in-memory keyword search with a vector database
 - Use embedding models to encode documents and retrieve by semantic similarity
 
 ### Extra 2 — Additional File Types for Uploading and Retrieval
@@ -73,9 +73,9 @@ Complete any of the following to earn additional points. Each item is independen
 ## Extra Evalutation Critieria
 | Criteria | Score | Description |
 |---|---|---|
-| Vector DB | + pts | Semantic retrieval implemented with a vector database |
-| More File Types | + pts | CSV, Excel, or image files parsed and indexed for RAG |
-| Chat History | + pts | Conversation context passed to LLM; bot handles follow-ups correctly |
+| Vector DB | + 10 pts | Semantic retrieval implemented with a vector database |
+| More File Types | + 10 pts | CSV, Excel, or image files parsed and indexed for RAG |
+| Chat History | + 10 pts | Conversation context passed to LLM; bot handles follow-ups correctly |
 
 ---
 No things are perfect we just want to know you. `Good Luck !!`
