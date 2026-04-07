@@ -14,24 +14,24 @@ Develop a **Generative AI Chatbot** that integrates with **LINE** and utilizes *
 ### 1. Backend
 - Develop the chatbot backend using **FastAPI**
 
-### 2. LINE OA Integration
-- Connect the chatbot to **LINE Messaging API**
-- Handle incoming messages via Webhook and reply in real time
-- You need to find the way to connect your Backend with Line OA **(Trust me it's not hard :))**
-
-### 3. Language Model
-- Use any LLM API of your choice.
-- The model must generate responses in Thai or English depending on what the user writes.
-
-### 4. Document Upload & Storage
+### 2. Document Upload & Storage
 - Provide an API endpoint to **upload documents** 
 - Supported file types: **`.pdf` and `.txt`**
 - Store uploaded files in **memory or temporary storage** — `no database required`
 
-### 5. Retrieval-Augmented Generation (RAG)
+### 3. Retrieval-Augmented Generation (RAG)
 - Implement a RAG pipeline:
   - When a user sends a message, retrieve relevant text chunks from uploaded documents
-- Use **in-memory search** or **Vector-Database**
+- Use **in-memory search** or **vector database**, whichever you prefer.
+
+### 4. Language Model
+- Use any LLM API of your choice.
+- The model must generate responses in Thai or English depending on what the user writes.
+
+### 5. LINE OA Integration
+- Connect the chatbot to **LINE Messaging API**
+- Handle incoming messages via Webhook and reply in real time
+- You need to find the way to connect your Backend with Line OA **(Trust me it's not hard :))**
 
 ### 6. Code & Repository
 1. Push the completed project to a **public GitHub repository** (No need to push `ENV`)
