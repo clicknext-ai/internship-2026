@@ -20,7 +20,7 @@ Develop a **Generative AI Chatbot** that integrates with **LINE** and utilizes *
 - Store uploaded files in **memory or temporary storage** — `no database required`
 
 ### 3. Retrieval-Augmented Generation (RAG)
-- Use data from `src/REPORT2568.pdf` credit `กรมชลประทาน รายงานประจำปี 2568`
+- Use data from `src/REPORT2568.pdf` **Reference** `กรมชลประทาน รายงานประจำปี 2568 หน้าที่ 30-50`
 - Implement a RAG pipeline:
   - When a user sends a message, retrieve relevant text chunks from uploaded documents
 - Use **in-memory search** or **vector database**, whichever you prefer.
