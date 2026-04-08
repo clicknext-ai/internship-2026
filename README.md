@@ -20,6 +20,7 @@ Develop a **Generative AI Chatbot** that integrates with **LINE** and utilizes *
 - Store uploaded files in **memory or temporary storage** — `no database required`
 
 ### 3. Retrieval-Augmented Generation (RAG)
+- Use data from `src/REPORT2568.pdf` credit `กรมชลประทาน รายงานประจำปี 2568`
 - Implement a RAG pipeline:
   - When a user sends a message, retrieve relevant text chunks from uploaded documents
 - Use **in-memory search** or **vector database**, whichever you prefer.
@@ -31,17 +32,18 @@ Develop a **Generative AI Chatbot** that integrates with **LINE** and utilizes *
 ### 5. LINE OA Integration
 - Connect the chatbot to **LINE Messaging API**
 - Handle incoming messages via Webhook and reply in real time
-- You need to find the way to connect your Backend with Line OA **(Trust me it's not hard :))**
+- You need to find the way to connect your Backend with Line OA **Trust me it's not hard 🙂**
 
 ### 6. Code & Repository
-1. Push the completed project to a **public GitHub repository** (No need to push `ENV`)
-2. Include a clear **`README.md`** covering:
-   - First Paragraph contain with FULLNAME + INTERNSHIP YEAR eg. **JHON DOE 1975**
-   - How to install dependencies
-   - How to set up environment variables
-   - How to run the project
-   - List of all API endpoints
-
+1. **GitHub Repository**: Push the completed project to a **public GitHub repository**. (Do not include the `.env` file.)
+2. **Video Demonstration**: Record a video testing your chatbot on the Line platform using the questions from `src/QnA-Sheet.csv`. Upload the video to an online platform (e.g., YouTube, Google Drive).
+3. **Documentation**: Include a comprehensive **`README.md`** file covering the following:
+   - **Personal Info**: The first paragraph must contain your **FULL NAME** and **INTERNSHIP YEAR** (e.g., **JOHN DOE 2026**).
+   - **Video Link**: Direct link to the uploaded demonstration video.
+   - **Installation**: Step-by-step instructions on how to install dependencies.
+   - **Environment Setup**: Instructions on how to configure environment variables.
+   - **Execution**: How to run the project locally.
+   - **API Reference**: A complete list of all API endpoints.
 ---
 
 ## Extra Score
