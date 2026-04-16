@@ -12,7 +12,7 @@ Develop a **Generative AI Chatbot** that integrates with **LINE** and utilizes *
 ## Instructions
 
 ### 1. Backend
-- Develop the chatbot backend using **FastAPI**
+- Develop the chatbot backend using **FastAPI** with **Python version 3.12**
 
 ### 2. Document Upload & Storage
 - Provide an API endpoint to **upload documents** 
